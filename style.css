@@ -1,0 +1,15 @@
+.control {
+  padding: 1em 1em;
+  border: none;
+  outline: none;
+}
+
+.start {
+  background: green;
+}
+.stop {
+  background: red;
+}
+.reset {
+  background: blue;
+}
