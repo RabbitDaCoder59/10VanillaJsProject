@@ -1,0 +1,68 @@
+JavaScriptMasteryRoadmap/
+│
+├─ 01_Programming_Foundations/
+│    └─ what_is_javascript.js
+│
+├─ 02_JS_Core_Beginner/
+│    ├─ variables.js
+│    ├─ data_types.js
+│    ├─ type_coercion.js
+│    ├─ operators.js
+│    ├─ control_flow.js
+│    └─ loops.js
+│
+├─ 03_JS_Core_Intermediate/
+│    ├─ functions.js
+│    ├─ arrays.js
+│    ├─ objects.js
+│    ├─ destructuring.js
+│    ├─ spread_rest.js
+│    ├─ template_literals.js
+│    └─ truthy_falsy.js
+│
+├─ 04_JS_Core_Advanced/
+│    ├─ scope_closures.js
+│    ├─ hoisting.js
+│    ├─ this_keyword.js
+│    ├─ oop.js
+│    ├─ functional_programming.js
+│    ├─ async_js.js
+│    ├─ event_loop.js
+│    ├─ error_handling.js
+│    └─ modules.js
+│
+├─ 05_Git_GitHub/
+│    ├─ git_basics.md
+│    ├─ github_basics.md
+│    └─ gitignore_example.md
+│
+├─ 06_DOM_BrowserAPIs/
+│    ├─ dom_basics.js
+│    ├─ events.js
+│    ├─ forms.js
+│    ├─ storage.js
+│    └─ fetch_api.js
+│
+├─ 07_React_Path/
+│    ├─ react_basics.jsx
+│    ├─ state_effect.jsx
+│    ├─ props_events.jsx
+│    ├─ forms_lists.jsx
+│    ├─ router_context.jsx
+│    └─ state_management.md
+│
+├─ 08_NodeJS_Path/
+│    ├─ node_basics.js
+│    ├─ express_routing.js
+│    ├─ middleware.js
+│    ├─ restful_api.js
+│    ├─ mongodb_mongoose.js
+│    ├─ authentication.js
+│    └─ best_practices.md
+│
+└─ 09_Senior_JS_Topics/
+     ├─ testing.js
+     ├─ performance.js
+     ├─ security.md
+     ├─ tooling.md
+     └─ system_design.md
