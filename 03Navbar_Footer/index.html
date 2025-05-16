@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NavBar</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Tangerine:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="topBar">
+        <div class="topBar-marquee">
+          DroineTech is the future, while RabbitDaCoder is Organizer
+        </div>
+      </div>
+      <nav>
+        <div class="logoNav">
+          <div class="logo">
+            <h4>Logo</h4>
+          </div>
+          <div class="navLinks">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Portfolio</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="searchAuth">
+          <div class="search">
+            <form action="">
+              <div class="search">
+                <input type="text" placeholder="Search..." />
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+            </form>
+          </div>
+          <div class="auth">
+            <button>Login</button>
+            <button>
+              Sign with Google <i class="fa-brands fa-google"></i>
+            </button>
+            <button><i class="fa-solid fa-bars hamburger"></i></button>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="mobileNavBar">
+      <div class="head"><i class="fa-solid fa-xmark hamburger"></i></div>
+      <div class="logo">
+        <h4>Logo</h4>
+      </div>
+      <div class="navLinks">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+      </div>
+      <div class="auth">
+        <button>Login</button>
+      </div>
+    </div>
+    <main>
+      <div class="content"></div>
+    </main>
+    <footer>
+      <div class="footerContent">
+        <div>
+          <h4>About</h4>
+          <ul>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">Careers</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Pricing</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="#">Email</a></li>
+            <li><a href="#">Support</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footerBrand">
+        <div class="footerLogo">
+          <span class="logoText">Logo</span>
+        </div>
+        <span id="brandName">RabbitDaCoder Works</span> &copy;
+        <span id="year"></span>
+      </div>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
